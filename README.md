@@ -6,27 +6,27 @@
 
 ### about
 
-Backend engineer focused on building performant, scalable distributed systems.
+CS student learning backend engineering through Node.js, TypeScript, and Linux.
 
-Node.js · TypeScript · Rust · Linux
+Building projects to understand how systems work under the hood.
 
-Open source advocate. Infrastructure enthusiast. Terminal native.
+Open source enthusiast. Terminal native.
 
 ---
 
-### current focus
+### current learning
 
-- Distributed systems and message queue architectures
-- High-throughput API design and optimization
-- Developer tooling and automation
-- Open source contributions to the Node.js ecosystem
+- Exploring distributed systems and message queue architectures
+- Studying high-throughput API design and performance optimization
+- Learning developer tooling and workflow automation
+- Exploring the Node.js open-source ecosystem and understanding how production projects are built
 
 ---
 
 ### featured projects
 
 [**sift**](https://github.com/usfmah/sift) · High-performance log tailing utility for real-time observability.
-Built with Rust. Processes 50k+ lines/sec with minimal memory overhead.
+Built with Node.js. Processes high-volume streams with minimal overhead.
 
 [**forge**](https://github.com/usfmah/forge) · Scaffolding CLI for opinionated Node.js microservices.
 TypeScript-first. Generates validated project structures in under 200ms.
@@ -44,22 +44,6 @@ Edge-routed. Sub-millisecond overhead. Single binary.
 
 ---
 
-### github stats
-
-<p align="center">
-  <img src="assets/github-stats.svg" width="100%" alt="GitHub Stats" />
-</p>
-
----
-
-### contribution graph
-
-<p align="center">
-  <img src="assets/contribution-graph.svg" width="100%" alt="Contribution Graph" />
-</p>
-
----
-
 ### contact
 
 [**email**](mailto:usfmah@pm.me)
@@ -68,8 +52,4 @@ Edge-routed. Sub-millisecond overhead. Single binary.
 
 ---
 
-<p align="center">
-  <sub>Handcrafted · Minimal · Open Source</sub>
-  <br />
-  <sub>profile built with ❤️ and a terminal</sub>
-</p>
+

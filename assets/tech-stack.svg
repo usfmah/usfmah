@@ -1,32 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" fill="none">
   <defs>
-    <linearGradient id="node" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#339933"/>
-      <stop offset="100%" stop-color="#206b20"/>
+    <linearGradient id="js" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7df1e"/>
+      <stop offset="100%" stop-color="#d4ba0a"/>
     </linearGradient>
     <linearGradient id="ts" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#3178c6"/>
       <stop offset="100%" stop-color="#235a97"/>
     </linearGradient>
-    <linearGradient id="rust" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#000000"/>
-      <stop offset="100%" stop-color="#1a1a2e"/>
+    <linearGradient id="node" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#339933"/>
+      <stop offset="100%" stop-color="#206b20"/>
     </linearGradient>
-    <linearGradient id="docker" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#2496ed"/>
-      <stop offset="100%" stop-color="#1a7bb5"/>
+    <linearGradient id="express" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cccccc"/>
+    </linearGradient>
+    <linearGradient id="c" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a8b9cc"/>
+      <stop offset="100%" stop-color="#7d8fa3"/>
+    </linearGradient>
+    <linearGradient id="cpp" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00599c"/>
+      <stop offset="100%" stop-color="#003d6b"/>
     </linearGradient>
     <linearGradient id="linux" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#fcc624"/>
       <stop offset="100%" stop-color="#d4a515"/>
-    </linearGradient>
-    <linearGradient id="postgres" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#4169e1"/>
-      <stop offset="100%" stop-color="#2f4fa3"/>
-    </linearGradient>
-    <linearGradient id="redis" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#dc382d"/>
-      <stop offset="100%" stop-color="#a52620"/>
     </linearGradient>
   </defs>
 
@@ -38,12 +38,12 @@
   <line x1="340" y1="50" x2="460" y2="50" stroke="#30363d" stroke-width="1"/>
 
   <!-- Row 1 -->
-  <!-- Node.js -->
+  <!-- JavaScript -->
   <rect x="30" y="70" width="170" height="80" rx="6" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
-  <rect x="30" y="70" width="6" height="80" rx="3" fill="url(#node)"/>
-  <text x="52" y="102" fill="#e6edf3" font-family="'SF Mono','Fira Code',monospace" font-size="13" font-weight="600">Node.js</text>
-  <text x="52" y="122" fill="#8b949e" font-family="'SF Mono','Fira Code',monospace" font-size="10">Runtime · JavaScript</text>
-  <rect x="52" y="132" width="36" height="4" rx="2" fill="url(#node)"/>
+  <rect x="30" y="70" width="6" height="80" rx="3" fill="url(#js)"/>
+  <text x="52" y="102" fill="#e6edf3" font-family="'SF Mono','Fira Code',monospace" font-size="13" font-weight="600">JavaScript</text>
+  <text x="52" y="122" fill="#8b949e" font-family="'SF Mono','Fira Code',monospace" font-size="10">Language · ES6+</text>
+  <rect x="52" y="132" width="42" height="4" rx="2" fill="url(#js)"/>
 
   <!-- TypeScript -->
   <rect x="215" y="70" width="170" height="80" rx="6" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
@@ -52,46 +52,39 @@
   <text x="237" y="122" fill="#8b949e" font-family="'SF Mono','Fira Code',monospace" font-size="10">Superset · Types</text>
   <rect x="237" y="132" width="28" height="4" rx="2" fill="url(#ts)"/>
 
-  <!-- Rust -->
+  <!-- Node.js -->
   <rect x="400" y="70" width="170" height="80" rx="6" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
-  <rect x="400" y="70" width="6" height="80" rx="3" fill="url(#rust)"/>
-  <text x="422" y="102" fill="#e6edf3" font-family="'SF Mono','Fira Code',monospace" font-size="13" font-weight="600">Rust</text>
-  <text x="422" y="122" fill="#8b949e" font-family="'SF Mono','Fira Code',monospace" font-size="10">Systems · Performance</text>
-  <rect x="422" y="132" width="24" height="4" rx="2" fill="#ff7b72"/>
+  <rect x="400" y="70" width="6" height="80" rx="3" fill="url(#node)"/>
+  <text x="422" y="102" fill="#e6edf3" font-family="'SF Mono','Fira Code',monospace" font-size="13" font-weight="600">Node.js</text>
+  <text x="422" y="122" fill="#8b949e" font-family="'SF Mono','Fira Code',monospace" font-size="10">Runtime · JavaScript</text>
+  <rect x="422" y="132" width="36" height="4" rx="2" fill="url(#node)"/>
 
-  <!-- Docker -->
+  <!-- Express.js -->
   <rect x="585" y="70" width="170" height="80" rx="6" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
-  <rect x="585" y="70" width="6" height="80" rx="3" fill="url(#docker)"/>
-  <text x="607" y="102" fill="#e6edf3" font-family="'SF Mono','Fira Code',monospace" font-size="13" font-weight="600">Docker</text>
-  <text x="607" y="122" fill="#8b949e" font-family="'SF Mono','Fira Code',monospace" font-size="10">Containers · DevOps</text>
-  <rect x="607" y="132" width="32" height="4" rx="2" fill="url(#docker)"/>
+  <rect x="585" y="70" width="6" height="80" rx="3" fill="url(#express)"/>
+  <text x="607" y="102" fill="#e6edf3" font-family="'SF Mono','Fira Code',monospace" font-size="13" font-weight="600">Express.js</text>
+  <text x="607" y="122" fill="#8b949e" font-family="'SF Mono','Fira Code',monospace" font-size="10">Framework · HTTP</text>
+  <rect x="607" y="132" width="28" height="4" rx="2" fill="url(#express)"/>
 
   <!-- Row 2 -->
+  <!-- C -->
+  <rect x="108" y="170" width="170" height="80" rx="6" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+  <rect x="108" y="170" width="6" height="80" rx="3" fill="url(#c)"/>
+  <text x="130" y="202" fill="#e6edf3" font-family="'SF Mono','Fira Code',monospace" font-size="13" font-weight="600">C</text>
+  <text x="130" y="222" fill="#8b949e" font-family="'SF Mono','Fira Code',monospace" font-size="10">Language · Systems</text>
+  <rect x="130" y="232" width="30" height="4" rx="2" fill="url(#c)"/>
+
+  <!-- C++ -->
+  <rect x="315" y="170" width="170" height="80" rx="6" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+  <rect x="315" y="170" width="6" height="80" rx="3" fill="url(#cpp)"/>
+  <text x="337" y="202" fill="#e6edf3" font-family="'SF Mono','Fira Code',monospace" font-size="13" font-weight="600">C++</text>
+  <text x="337" y="222" fill="#8b949e" font-family="'SF Mono','Fira Code',monospace" font-size="10">Language · OOP</text>
+  <rect x="337" y="232" width="30" height="4" rx="2" fill="url(#cpp)"/>
+
   <!-- Linux -->
-  <rect x="30" y="165" width="170" height="80" rx="6" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
-  <rect x="30" y="165" width="6" height="80" rx="3" fill="url(#linux)"/>
-  <text x="52" y="196" fill="#e6edf3" font-family="'SF Mono','Fira Code',monospace" font-size="13" font-weight="600">Linux</text>
-  <text x="52" y="216" fill="#8b949e" font-family="'SF Mono','Fira Code',monospace" font-size="10">Arch · Ubuntu · Alpine</text>
-  <rect x="52" y="226" width="24" height="4" rx="2" fill="url(#linux)"/>
-
-  <!-- PostgreSQL -->
-  <rect x="215" y="165" width="170" height="80" rx="6" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
-  <rect x="215" y="165" width="6" height="80" rx="3" fill="url(#postgres)"/>
-  <text x="237" y="196" fill="#e6edf3" font-family="'SF Mono','Fira Code',monospace" font-size="13" font-weight="600">PostgreSQL</text>
-  <text x="237" y="216" fill="#8b949e" font-family="'SF Mono','Fira Code',monospace" font-size="10">Database · SQL</text>
-  <rect x="237" y="226" width="30" height="4" rx="2" fill="url(#postgres)"/>
-
-  <!-- Redis -->
-  <rect x="400" y="165" width="170" height="80" rx="6" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
-  <rect x="400" y="165" width="6" height="80" rx="3" fill="url(#redis)"/>
-  <text x="422" y="196" fill="#e6edf3" font-family="'SF Mono','Fira Code',monospace" font-size="13" font-weight="600">Redis</text>
-  <text x="422" y="216" fill="#8b949e" font-family="'SF Mono','Fira Code',monospace" font-size="10">Cache · Pub/Sub</text>
-  <rect x="422" y="226" width="36" height="4" rx="2" fill="url(#redis)"/>
-
-  <!-- React -->
-  <rect x="585" y="165" width="170" height="80" rx="6" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
-  <rect x="585" y="165" width="6" height="80" rx="3" fill="#58a6ff"/>
-  <text x="607" y="196" fill="#e6edf3" font-family="'SF Mono','Fira Code',monospace" font-size="13" font-weight="600">React</text>
-  <text x="607" y="216" fill="#8b949e" font-family="'SF Mono','Fira Code',monospace" font-size="10">Frontend · UI</text>
-  <rect x="607" y="226" width="36" height="4" rx="2" fill="#58a6ff"/>
+  <rect x="522" y="170" width="170" height="80" rx="6" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+  <rect x="522" y="170" width="6" height="80" rx="3" fill="url(#linux)"/>
+  <text x="544" y="202" fill="#e6edf3" font-family="'SF Mono','Fira Code',monospace" font-size="13" font-weight="600">Linux</text>
+  <text x="544" y="222" fill="#8b949e" font-family="'SF Mono','Fira Code',monospace" font-size="10">OS · Terminal</text>
+  <rect x="544" y="232" width="24" height="4" rx="2" fill="url(#linux)"/>
 </svg>
