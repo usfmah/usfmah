@@ -23,19 +23,6 @@ Open source enthusiast. Terminal native.
 
 ---
 
-### featured projects
-
-[**sift**](https://github.com/usfmah/sift) · High-performance log tailing utility for real-time observability.
-Built with Node.js. Processes high-volume streams with minimal overhead.
-
-[**forge**](https://github.com/usfmah/forge) · Scaffolding CLI for opinionated Node.js microservices.
-TypeScript-first. Generates validated project structures in under 200ms.
-
-[**hedron**](https://github.com/usfmah/hedron) · Minimal reverse proxy for local development.
-Edge-routed. Sub-millisecond overhead. Single binary.
-
----
-
 ### tech stack
 
 <p align="center">
@@ -46,9 +33,12 @@ Edge-routed. Sub-millisecond overhead. Single binary.
 
 ### contact
 
-[**email**](mailto:usfmah@pm.me)
-[**linkedin**](https://linkedin.com/in/usfmah)
-[**pgp**](https://github.com/usfmah.gpg)
+<p align="center">
+  <a href="mailto:usfmah@pm.me"><img src="assets/icon-email.svg" width="68" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/youssef-mahmoud-169312222/"><img src="assets/icon-linkedin.svg" width="68" alt="LinkedIn" /></a>
+  <a href="https://www.youtube.com/@soofa32"><img src="assets/icon-youtube.svg" width="68" alt="YouTube" /></a>
+  <a href="https://github.com/usfmah.gpg"><img src="assets/icon-pgp.svg" width="68" alt="PGP" /></a>
+</p>
 
 ---
 
