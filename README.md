@@ -34,10 +34,8 @@ Open source enthusiast. Terminal native.
 ### contact
 
 <p align="center">
-  <a href="mailto:usfmah@pm.me"><img src="assets/icon-email.svg" width="68" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/youssef-mahmoud-169312222/"><img src="assets/icon-linkedin.svg" width="68" alt="LinkedIn" /></a>
   <a href="https://www.youtube.com/@soofa32"><img src="assets/icon-youtube.svg" width="68" alt="YouTube" /></a>
-  <a href="https://github.com/usfmah.gpg"><img src="assets/icon-pgp.svg" width="68" alt="PGP" /></a>
 </p>
 
 ---
